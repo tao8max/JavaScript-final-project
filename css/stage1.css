@@ -1,0 +1,451 @@
+body {
+    overflow: hidden;  
+}
+
+#controller{
+	z-index: 4;
+	position: absolute
+}
+
+#stageOffice {
+	background-image: linear-gradient(to left, #404040, #D8D8D8);
+	position: absolute;
+	min-height:100%;
+	top: 0;
+	left: 0;
+	height: auto;
+	width: 100%;
+}
+
+#stageHome {
+	background-color: black;
+	display: none;
+	position: absolute;
+	min-height:100%;
+	top: 0;
+	left: 0;
+	height: auto;
+	width: 100%;
+  
+}
+
+#container {
+	position: absolute;
+	width: 270px;  
+	height:408px;  
+	margin-left: 10%;
+	margin-top: 15%;
+	overflow:hidden;
+	z-index: 1;
+}
+
+#containerClock {
+	position: absolute;
+	visibility:hidden;
+	background: url(../images/clockHome.png) no-repeat;
+	width: 120px;  
+	height:120px;  
+	margin-left: 24%;
+	margin-top: 9%;
+	overflow:hidden;
+	z-index: 1;
+}
+
+#hourHand {
+	position: absolute;
+	height: 46px;
+	width: 10px;
+	margin-left: 55px;
+	margin-top: 19px;
+	z-index: 3;
+}
+
+#minuteHand {
+	position: absolute;
+	height: 57px;
+	width: 10px;
+	margin-left: 55px;
+	margin-top: 7px;
+	z-index: 2;
+}
+
+.cloudContainer {
+	position: absolute;
+	width: 530px;  
+	height:520px;  
+	margin-left: 1%;
+	margin-top: -1%;
+	overflow:hidden;
+}
+
+#cloud {
+	visibility:hidden;
+}
+
+.rain {
+	position: absolute;
+	width: 400px;  
+	height:500px;  
+	margin-left: 11%;
+	margin-top: -15%;
+	overflow:hidden;
+}
+
+.conversation35 {
+	color: white;
+	font-size: 3.5em;
+	font-family: 'Poiret One', cursive;
+	text-transform: uppercase;
+	font-weight: bolder;
+	line-height: 2.6em;
+	z-index: 1
+}
+
+.conversationBlack {
+	color: black;
+	font-size: 3.5em;
+	font-family: 'Poiret One', cursive;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 2.6em;
+	z-index: 1
+}
+
+.conversation27 {
+	color: white;
+	font-size: 2.7em;
+	font-family: 'Poiret One', cursive;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 2.6em;
+	z-index: 1
+}
+
+#red {
+	color: #ff4d4d;
+}
+
+#blue {
+	color: #b3c5ff;
+}
+
+#thatWasMe {
+	visibility:hidden;
+	position: absolute;
+	top: 38%;
+	left: 46%;
+}
+
+#notTooLong {
+	position:absolute;
+	visibility: hidden;
+	top:50%;
+	left:46%;
+}
+
+#sleepWorking {
+	position: absolute;
+	visibility: hidden;
+	top: 25%;
+	left: 47%;
+	height: 100px;
+	width: 500px;
+	overflow:hidden;
+}
+
+#throughTheDay {
+	position: absolute;
+	visibility: hidden;
+	top: 34%;
+	left: 58%;
+	height: 100px;
+	width: 500px;
+	overflow:hidden;
+}
+
+#atJob {
+	position:absolute;
+	visibility: hidden;
+	top:48%;
+	left:47%;
+	height: 100px;
+	width: 600px;
+	overflow:hidden;
+}
+
+#notChallenging {
+	position:absolute;
+	visibility: hidden;
+	top:58%;
+	left:57%;
+	height: 100px;
+	width: 500px;
+	overflow:hidden;
+}
+
+#norExciting {
+	position:absolute;
+	visibility: hidden;
+	top:68%;
+	left:57%;
+}
+
+#table {
+	position: absolute;
+	visibility: hidden;
+	top: 60%;
+	left: 1%;
+	z-index: 2;
+}
+
+#shelf {
+	position: absolute;
+	visibility: hidden;
+	top: 25%;
+	left: 1%;
+}
+
+#clock {
+	position: absolute;
+	visibility: hidden;
+	top: 12%;
+	left: 15%;
+
+}
+
+#charts {
+	position: absolute;
+	visibility: hidden;
+	top: 16%;
+	left: 25%;
+}
+
+#likeEveryone {
+	position: absolute;
+	visibility: hidden;
+	top: 38%;
+	left: 47%;
+	height: 100px;
+	width: 500px;
+	overflow:hidden;
+}
+
+#iLived {
+	position: absolute;
+	visibility: hidden;
+	top: 50%;
+	left: 58%;
+	height: 100px;
+	width: 500px;
+	overflow:hidden;
+}
+
+#butThen {
+	position:absolute;
+	visibility: hidden;
+	top:38%;
+	left:45%;
+	height: 100px;
+	width: 500px;
+	overflow:hidden;
+}
+
+#mondayCame {
+	position:absolute;
+	visibility: hidden;
+	top:50%;
+	left:45%;
+	height: 100px;
+	width: 660px;
+	overflow:hidden;
+}
+
+#andIWasBack {
+	position: absolute;
+	visibility: hidden;
+	top: 38%;
+	left: 46%;
+}
+
+#toTheSame {
+	position:absolute;
+	visibility: hidden;
+	top:50%;
+	left:46%;
+}
+
+#iHadToDo {
+	position: absolute;
+	visibility: hidden;
+	top: 45%;
+	left: 46%;
+}
+
+#frontRoom {
+	position: absolute;
+	visibility: hidden;
+	top: 54%;
+	left: 3%;
+	z-index: 2;
+}
+
+#backRoom{
+	position: absolute;
+	visibility: hidden;
+	top: -10%;
+	left: 3%;
+	z-index: 0;
+}
+
+#books {
+	position: absolute;
+	visibility: hidden;
+	top: 25%;
+	right: 20%;
+	z-index: 3;
+	overflow:hidden;
+}
+
+#atHomeIve {
+	position:absolute;
+	visibility: hidden;
+	top:74%;
+	left:28%;
+	height: 100px;
+	width: 700px;
+	overflow:hidden;
+	z-index: 4;
+}
+
+#teachMyself {
+	position:absolute;
+	visibility: hidden;
+	top:82%;
+	left:38%;
+	height: 100px;
+	width: 700px;
+	overflow:hidden;
+	z-index: 4;
+}
+
+#afterGoing {
+	position:absolute;
+	visibility: hidden;
+	top:74%;
+	left:28%;
+	height: 100px;
+	width: 700px;
+	overflow:hidden;
+	z-index: 4;
+}
+
+#aDozenOfBooks {
+	position:absolute;
+	visibility: hidden;
+	top:82%;
+	left:38%;
+	height: 100px;
+	width: 700px;
+	overflow:hidden;
+	z-index: 4;
+}
+
+#iMovedOn {
+	position:absolute;
+	visibility: hidden;
+	top:74%;
+	left:28%;
+	height: 100px;
+	width: 750px;
+	overflow:hidden;
+	z-index: 4;
+}
+
+#andTutorials {
+	position:absolute;
+	visibility: hidden;
+	top:82%;
+	left:38%;
+	height: 100px;
+	width: 750px;
+	overflow:hidden;
+	z-index: 4;
+}
+
+#treeHouse {
+	position:absolute;
+	visibility: hidden;
+	top:20%;
+	left:68%;
+	z-index: 4;
+}
+
+#codecAdemy {
+	position:absolute;
+	visibility: hidden;
+	top:10%;
+	left:38%;
+	z-index: 4;
+}
+
+#codeSchool {
+	position:absolute;
+	visibility: hidden;
+	top:34%;
+	left:5%;
+	z-index: 4;
+}
+
+#eventually {
+	position:absolute;
+	visibility: hidden;
+	top:74%;
+	left:28%;
+	height: 100px;
+	width: 600px;
+	overflow:hidden;
+	z-index: 4;
+}
+
+#iJoined {
+	position:absolute;
+	visibility: hidden;
+	top:82%;
+	left:58%;
+	height: 100px;
+	width: 600px;
+	overflow:hidden;
+	z-index: 4;
+}
+
+#logo {
+	position:absolute;
+	visibility: hidden;
+	top:76%;
+	left:78%;
+	z-index: 4;
+	cursor: pointer;
+}
+
+button {
+    cursor:pointer;
+}
+
+
+/* ------- RAIN --------*/
+
+/*Making a drop*/
+
+.drop {
+	background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(rgba(255,255,255,0.6))  );
+	background: -moz-linear-gradient(top, rgba(13,52,58,1) 0%, rgba(255,255,255,.6) 100%);
+	opacity: 0.4;
+	width:2px;
+	height:49px;
+	position: absolute;
+	bottom:100px;
+	-webkit-animation: fall .63s linear infinite;
+	-moz-animation: fall .63s linear infinite;
+  
+}
+

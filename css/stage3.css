@@ -1,0 +1,90 @@
+body {
+  overflow: hidden;
+  background-color: black;
+  height: auto;
+  width: 100%;
+}
+
+#stageSpace {
+  background: url("../images/night-sky.jpg");
+  position:relative;
+  top: 0;
+  left: 0;
+  width:1308px;
+  height:862px;
+  background-color: black;
+  overflow:hidden;
+  
+}
+
+#stageNYC {
+  background-image: url("../images/nyc-2.png");
+  position: absolute;
+  min-height:100%;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover; 
+    -moz-background-size: cover;    
+    -o-background-size: cover;      
+  background-size: cover;
+}
+
+#rocket {
+    position:absolute;
+    bottom:180px;
+    left:260px;
+    width:139px;
+    height:254px;  
+    z-index:3;
+}
+
+#rocketImg {
+    width:139px;
+    height:254px;
+    position:absolute;
+    background:url(../images/rocket.png);  
+}
+
+#flames {
+    position:absolute;
+    top:235px;
+    left:45px;
+    width:52px;
+    height:180px;
+    background:url(../images/flames.png);
+    overflow:hidden;
+}
+
+#smile {
+  position:absolute;
+    bottom:-5px;
+    left:295px;
+    width:70px;
+    height:137px;
+    background:url(../images/smile-small.png);
+    z-index: 2;
+}
+
+#worldNYCDA {
+  z-index: 5;
+  margin-top: -1200px;
+  margin-left: 500px;
+  width: 200px;
+  height: 200px;
+  background: url(../images/NYCDA_logo_white.png);
+  border-radius: 100%;
+  background-size: 400px;
+  box-shadow: inset 16px 0 40px 6px rgb(0, 0, 0), inset -3px 0 6px 2px rgba(255, 255, 255, 1);
+  transition: all 3s ease-in-out;
+  animation: rotate 5s infinite forwards linear; 
+}
+
+
+@keyframes rotate {
+  from { background-position-x: 0px;   }
+  to   { background-position-x: 400px; }
+}

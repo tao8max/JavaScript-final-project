@@ -1,0 +1,248 @@
+body {
+  overflow: hidden;
+  height: auto;
+  width: 100%; 
+}
+
+#stageNYCDA {
+  background-image: linear-gradient(to left, #B0B0B0, #F0F0F0);
+  position: absolute;
+  min-height:100%;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+}
+
+.conversationBlack {
+	color: black;
+	font-size: 3.5em;
+	font-family: 'Poiret One', cursive;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 2.6em;
+	z-index: 1
+}
+
+.conversationBlack20 {
+	color: black;
+	font-size: 2em;
+	font-family: 'Poiret One', cursive;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 2em;
+	z-index: 1
+}
+
+#webDevelopment{
+ position: absolute;
+ visibility: hidden;
+ top:-3%;
+ left: 30%;
+ overflow:hidden;
+}
+
+#nycdaSmall{
+ position: absolute;
+ visibility: hidden;
+ top:0%;
+ left: 13%;
+ overflow:hidden;
+}
+
+#dots {
+ position: absolute;
+ visibility: hidden;
+ top: 320px;
+ left: 294px;
+ height: 20px;
+ width: 800px;
+ overflow:hidden;
+ z-index: 2;
+}
+
+#orange{
+ position: absolute;
+ visibility: hidden;
+ top:280px;
+ left: 300px;
+ overflow:hidden;
+}
+
+#htmlCss{
+ position: absolute;
+ visibility: hidden;
+ top:280px;
+ left: 351px;
+ overflow:hidden;
+ cursor: pointer;
+}
+
+#green{
+ position: absolute;
+ visibility: hidden;
+ top:260px;
+ left: 457px;
+ overflow:hidden;
+}
+
+#javS{
+ position: absolute;
+ visibility: hidden;
+ top:280px;
+ left: 477px;
+ overflow:hidden;
+ cursor: pointer;
+}
+
+#blue{
+ position: absolute;
+ visibility: hidden;
+ top:280px;
+ left: 584px;
+ overflow:hidden;
+}
+
+#ruby{
+ position: absolute;
+ visibility: hidden;
+ top:280px;
+ left: 603px;
+ overflow:hidden;
+ cursor: pointer;
+}
+
+#purple{
+ position: absolute;
+ visibility: hidden;
+ top:260px;
+ left: 709px;
+ overflow:hidden;
+}
+
+#sinatra{
+ position: absolute;
+ visibility: hidden;
+ top:280px;
+ left: 729px;
+ overflow:hidden;
+ cursor: pointer;
+}
+
+#red{
+ position: absolute;
+ visibility: hidden;
+ top:280px;
+ left: 837px;
+ overflow:hidden;
+}
+
+#rubyRails{
+ position: absolute;
+ visibility: hidden;
+ top:280px;
+ left: 855px;
+ overflow:hidden;
+ cursor: pointer;
+}
+
+.conversation20 {
+	color: black;
+	font-size: 25px;
+	font-family: 'Poiret One', cursive;
+	line-height: 2em;
+	z-index: 2
+}
+
+#blueText {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #00264d;
+}
+
+#htmlCssTr {
+	position: absolute;
+	visibility: hidden;
+	top: 220px;
+	left: 385px;
+}
+
+#htmlCssLarge {
+	position: absolute;
+	visibility: hidden;
+	top: 100px;
+	left: 295px;	
+}
+
+#javSTr {
+	position: absolute;
+	visibility: hidden;
+	top: 410px;
+	left: 510px;
+}
+
+#javSLg {
+	position: absolute;
+	visibility: hidden;
+	top: 440px;
+	left: 472px;	
+}
+
+#blueTr {
+	position: absolute;
+	visibility: hidden;
+	top: 220px;
+	left: 636px;
+}
+
+#rubyLg {
+	position: absolute;
+	visibility: hidden;
+	top: 85px;
+	left: 590px;	
+}
+
+#purpleTr {
+	position: absolute;
+	visibility: hidden;
+	top: 410px;
+	left: 763px;
+}
+
+#sinatraLg {
+	position: absolute;
+	visibility: hidden;
+	top: 440px;
+	left: 700px;	
+}
+
+#redTr {
+	position: absolute;
+	visibility: hidden;
+	top: 220px;
+	left: 886px;
+}
+
+#railsLg {
+	position: absolute;
+	visibility: hidden;
+	top: 85px;
+	left: 848px;	
+}
+
+#smile {
+	position: absolute;
+	visibility: hidden;
+	top: 100px;
+	left: 70px;
+}
+
+#continueNext {
+	position: absolute;
+	visibility: hidden;
+	top: 294px;
+	right: 70px;
+	cursor: pointer;
+}
+
+		

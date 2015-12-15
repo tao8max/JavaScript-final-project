@@ -1,0 +1,116 @@
+body {
+  background: black; 
+  overflow: hidden;
+  z-index: -3;
+  
+}
+
+.nycdaLogo {
+  position: absolute;
+  min-height:100%;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+}
+
+
+#curlyLeft {
+  position: absolute;
+  visibility: hidden;
+  top: 20%;
+  left: 30%;
+}
+
+#theNewYork {
+  position: absolute;
+  visibility: hidden;
+  top: 28%;
+  left: 36%;
+}
+
+#codePlus {
+  position: absolute;
+  visibility: hidden;
+  top: 38%;
+  left: 36%;
+}
+
+#design {
+  position: absolute;
+  visibility: hidden;
+  top: 51%;
+  left: 36%;
+}
+
+#academy {
+  position: absolute;
+  visibility: hidden;
+  top: 68%;
+  right: 38%;
+}
+
+#curlyRight {
+  position: absolute;
+  visibility: hidden;
+  top: 20%;
+  right: 31%;
+}
+
+#replay{
+  position:absolute;
+  right:2%;
+  bottom: 3%;
+  width:19px;
+  height:19px;
+  cursor:pointer;
+}
+
+canvas{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  cursor:pointer;
+  visibility:hidden;
+  opacity:0.7;
+}
+#canvasDiv{
+	position: absolute;
+	top:2%;
+	left:22%;
+	height:95%;
+	width: 55%;
+}
+
+#canvasDiv h1{
+  margin-top: 18%;
+  margin-left: 34%;
+  cursor: pointer;
+  font-size: 1.5em;
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  color: #99CCFF;
+  opacity:0.7;
+}
+
+canvas:hover{
+	opacity:1;
+}
+
+.container {
+  position: absolute;
+  visibility: hidden;
+  width: 270px;  
+  height:408px;  
+  margin-left: 10%;
+  margin-top: 15%;
+  overflow:hidden;
+}
+
+button {
+    cursor:pointer;
+}
+
+
